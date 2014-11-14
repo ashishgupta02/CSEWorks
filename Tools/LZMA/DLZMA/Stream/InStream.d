@@ -17,7 +17,7 @@ public class InStream {
   //-----------------------------------------------------------------------------------------------
   public this (byte[] buffer) {
     this._data = buffer;
-    this._length = buffer.length;
+    this._length = cast(int)buffer.length;
   }
 
   //-----------------------------------------------------------------------------------------------
